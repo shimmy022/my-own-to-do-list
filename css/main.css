@@ -1,0 +1,103 @@
+.section {
+    background-color: #fff;
+    box-shadow: 0 0 5px #ddd;
+    margin-bottom: 10px;
+}
+
+.section__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #eee;
+    padding: 20px;
+}
+
+.section__subHeader{
+    margin: 0;
+}
+
+.section__button {
+    background: none;
+    border: none;
+    color: teal;
+    margin: 0 5px;
+}
+
+.section__button:hover {
+    cursor: pointer;
+}
+
+.section__form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.main__taskList{
+        padding: 20px;
+        font-size: 12px;
+} 
+
+.main__taskList--done {
+    text-decoration: line-through;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.main__list {
+    padding: 0px;
+}
+
+.main__listItem {
+    list-style-type: none;
+    border-bottom: 2px solid rgba(218, 218, 218, 0.788);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    
+}
+
+.main__taskListContent {
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    word-break: break-word;
+}
+
+.main__taskRemoveButton {
+    font-size: 20px;
+    min-height: 36px;
+    min-width: 36px;
+    border: none;
+    background-color: rgb(226, 23, 63);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main__taskRemoveButton:hover {
+    background-color: rgb(235, 80, 111);
+}
+
+.main__taskDoneButton {
+    font-size: 20px;
+    min-height: 36px;
+    min-width: 36px;
+    border: none;   
+    background-color: rgb(54, 199, 18);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main__taskDoneButton:hover {
+    background-color: rgb(106, 209, 81);
+}
